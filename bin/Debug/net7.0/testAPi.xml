@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>testAPi</name>
+    </assembly>
+    <members>
+        <member name="M:testAPi.Controllers.CustomerController.GetCustomers">
+            <summary>
+            Obtiene la lista de todo los clientes.
+            </summary>
+            <returns>La lista de clientes.</returns>
+        </member>
+        <member name="M:testAPi.Controllers.CustomerController.PostCustomer(Customer)">
+            <summary>
+            Crea un nuevo cliente.
+            </summary>
+        </member>
+        <member name="M:testAPi.Controllers.CustomerController.PutCustomer(System.Int32,Customer)">
+            <summary>
+            Edita un cliente.
+            </summary>
+            /// <remarks>
+            Puedes editar un cliente. 
+            Solo debes pasar el id del cliente que deseas editar.
+             
+            </remarks>
+        </member>
+        <member name="M:testAPi.Controllers.CustomerController.DeleteCustomer(System.Int32)">
+            <summary>
+            Elima un cliente.
+            </summary>
+            /// <remarks>
+            Puedes eliminar un cliente. 
+            Solo debes pasar el id del cliente que deseas eliminar.
+             
+            </remarks>
+        </member>
+        <member name="M:testAPi.Controllers.CustomerController.BuscarCliente(System.Nullable{System.Int32},System.String)">
+            <summary>
+            Busca un cliente.
+            </summary>
+            /// <remarks>
+            Puedes Buscar un cliente. 
+            Solo debes pasar el id del cliente o el nombre, del cliente que deseas buscar.
+             
+            </remarks>
+        </member>
+        <member name="M:testAPi.Controllers.ExchangeRateController.PostExhangeRate(ExchangeRate)">
+            <summary>
+            Crea una nueva Tasa de cambio.
+            </summary>
+        </member>
+        <member name="M:testAPi.Controllers.ExchangeRateController.GetExchangeRatesByMonth(System.Int32)">
+            <summary>
+            Lista todas Tasa de cambio por mes.
+            </summary>
+        </member>
+        <member name="M:testAPi.Controllers.ExchangeRateController.GetExchangeRateToday">
+            <summary>
+            Obtine la Tasa de cambio de hoy.
+            </summary>
+        </member>
+        <member name="M:testAPi.Controllers.ExchangeRateController.PutExchange(System.Int32,ExchangeRate)">
+            <summary>
+            Edita la tasa de cambio.
+            </summary>
+            /// <remarks>
+            Puedes editar La tasa de cambio. 
+            Solo debes pasar el id de la tasa de cambio que deseas editar.
+             
+            </remarks>
+        </member>
+        <member name="M:testAPi.Controllers.ExchangeRateController.DeleteExchange(System.Int32)">
+            <summary>
+            Elima una tasa de cambio.
+            </summary>
+            /// <remarks>
+            Puedes eliminar una tasa de cambio. 
+            Solo debes pasar el id de la tasa de cambio que deseas eliminar.
+             
+            </remarks>
+        </member>
+        <member name="M:testAPi.Controllers.ProductsController.GetProducts">
+            <summary>
+            Obtiene la lista de todo los Productos.
+            </summary>
+            <returns>Lista de Productos.</returns>
+        </member>
+        <member name="M:testAPi.Controllers.ProductsController.PostCustomer(Products)">
+            <summary>
+            Crea un nuevo producto.
+            </summary>
+        </member>
+        <member name="M:testAPi.Controllers.ProductsController.PutProduc(System.Int32,Products)">
+            <summary>
+            Edita un Producto.
+            </summary>
+            /// <remarks>
+            Puedes editar un Producto. 
+            Solo debes pasar el id del Producto que deseas editar.
+             
+            </remarks>
+        </member>
+        <member name="M:testAPi.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Elimina un producto.
+            </summary>
+            /// <remarks>
+            Puedes eliminar un producto. 
+            Solo debes pasar el codigo del producto que deseas eliminar.
+             
+            </remarks>
+        </member>
+        <member name="M:testAPi.Controllers.ProductsController.BuscarCliente(System.Nullable{System.Int32},System.String)">
+            <summary>
+            Busca un Producto.
+            </summary>
+            /// <remarks>
+            Puedes Buscar un Producto. 
+            Solo debes pasar el codigo del producto o la descripcion, 
+            del producto que deseas buscar.
+             
+            </remarks>
+        </member>
+    </members>
+</doc>
